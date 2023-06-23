@@ -1,0 +1,12 @@
+git clone https://github.com/amitganvir23/project-xyz.git
+cd project-xyz
+git status
+git add file1.txt (git add .) (git add -–all )
+git status
+git branch
+git commit -am "my first commit for testing"
+git push origin master
+KOMAL@LAPTOP-29JMAORF MINGW64 ~/Desktop/metgit/learning (main)
+$ git checkout -b komal
+Switched to a new branch 'komal'
+

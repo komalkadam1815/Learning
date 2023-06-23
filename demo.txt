@@ -6,4 +6,41 @@ git status
 git branch
 git commit -am "my first commit for testing"
 git push origin master
-this is my first file
+KOMAL@LAPTOP-29JMAORF MINGW64 ~/Desktop/metgit/learning (main)
+$ git checkout -b komal
+Switched to a new branch 'komal'
+
+KOMAL@LAPTOP-29JMAORF MINGW64 ~/Desktop/metgit/learning (komal)
+$ git branch
+* komal
+  main
+
+KOMAL@LAPTOP-29JMAORF MINGW64 ~/Desktop/metgit/learning (komal)
+$ git checkout -b komal1
+Switched to a new branch 'komal1'
+
+KOMAL@LAPTOP-29JMAORF MINGW64 ~/Desktop/metgit/learning (komal1)
+$ git branch
+  komal
+* komal1
+  main
+
+KOMAL@LAPTOP-29JMAORF MINGW64 ~/Desktop/metgit/learning (komal1)
+$ git status
+On branch komal1
+nothing to commit, working tree clean
+
+KOMAL@LAPTOP-29JMAORF MINGW64 ~/Desktop/metgit/learning (komal1)
+$ git checkout -b komal
+fatal: a branch named 'komal' already exists
+
+KOMAL@LAPTOP-29JMAORF MINGW64 ~/Desktop/metgit/learning (komal1)
+$ git checkout komal
+Switched to branch 'komal'
+
+KOMAL@LAPTOP-29JMAORF MINGW64 ~/Desktop/metgit/learning (komal)
+$
+
+
+
+

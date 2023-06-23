@@ -1,0 +1,9 @@
+git clone https://github.com/amitganvir23/project-xyz.git
+cd project-xyz
+git status
+git add file1.txt (git add .) (git add -–all )
+git status
+git branch
+git commit -am "my first commit for testing"
+git push origin master
+this is my first file
